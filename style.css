@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(42, 42, 42);
+    background-image: url("background.png");
+    background-size: cover;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+hr {
+  height:2px; color:rgb(0, 0, 0); background-color:rgb(49, 49, 49)
+}
+
+#game_hubs1 {
+  text-align: left;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#game_hubs2 {
+  text-align: right;
+}
+
+#centered_header {
+  text-align: center;
+  line-height: 100%;
+  margin:0%;
+}
+
+#center {
+    text-align: center;
+    line-height: 25%;
+}
+
+#header {
+    margin:0%;
+}
+
+#game {
+  line-height: 100%;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(0, 0, 0);
+  }
