@@ -43,6 +43,10 @@ hr {
     line-height: 25%;
 }
 
+#left {
+  text-align: left;
+}
+
 #header {
     margin:0%;
 }
